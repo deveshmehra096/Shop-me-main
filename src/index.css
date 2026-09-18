@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
-  font-family:"open-sans", sans-serif;
+  font-family: "Segoe UI", "open-sans", sans-serif;
+  background-color: #f7f6f3;
+  color: #1f2937;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -24,6 +24,50 @@
 .bar_icon{
     display: none;
 }
+
+.header_panel{
+    background: #fff;
+    border-bottom: 3px solid #0f766e;
+    padding: 14px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.header_panel strong{
+    color: #0f766e;
+}
+
+.header_panel.receipt{
+    border-bottom-color: #16a34a;
+}
+
+.header_panel.receipt strong{
+    color: #16a34a;
+}
+
+.bag_list{
+    margin: 8px 0 0;
+    padding-left: 18px;
+}
+
+.bag_total{
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+.checkout_btn{
+    background: #0f766e;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.checkout_btn:hover{
+    background: #0d5f58;
+}
 @media only screen and (max-width:992px){
     .search-bar{
         display: none;

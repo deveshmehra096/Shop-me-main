@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
 
-const searchBarComp = ({ className, children }) => (
- 
-
-    
-    <input type="text"  className={className} placeholder="Search for products, brands and more" />
- 
-   
-    
+const searchBarComp = ({ className, value, onChange }) => (
+    <input
+      type="text"
+      className={className}
+      placeholder="Search for products, brands and more"
+      value={value}
+      onChange={onChange}
+    />
   );
 const SearchBar = styled(searchBarComp)`
 margin-right: 50px;

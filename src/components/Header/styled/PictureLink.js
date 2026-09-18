@@ -4,22 +4,23 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
 const pictureLinkComp = function (props) {
+    const handleClick = (e) => {
+      e.preventDefault();
+      if (props.onClick) props.onClick(props.link);
+    };
     return (
-    
-    
     <div>
-       { console.log(arguments)}
-    <div className={props.className}>
+    <div className={props.className} onClick={handleClick} style={{ cursor: 'pointer' }}>
     <FontAwesomeIcon  icon={props.icon}/>
     </div>
-  
-    <a  href={props.link} className={props.className}>
+
+    <a href="#!" onClick={handleClick} className={props.className}>
     {props.link}
     </a>
-  
+
     </div>
   );
-} 
+}
 const PictureLink = styled(pictureLinkComp)`
 text-decoration:none;
 display:block;

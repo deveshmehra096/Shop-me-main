@@ -1,0 +1,62 @@
+.deals_page{
+    padding: 0 0 30px;
+}
+
+.back_btn{
+    background: none;
+    border: none;
+    color: #0f766e;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 14px 20px 0;
+}
+
+.deals_banner{
+    background: #0f766e;
+    color: #fff;
+    margin: 12px 20px 10px;
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+
+.deals_banner h6{
+    text-decoration: underline;
+    margin: 0 0 8px;
+}
+
+.deals_banner h2{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.deals_banner p{
+    margin: 8px 0 0;
+}
+
+.discount_badge{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    background: #e11d48;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 4px;
+}
+
+.mrp{
+    color: #94969f;
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 6px;
+}
+
+.free_delivery{
+    color: #16a34a;
+    font-size: 13px;
+    font-weight: 600;
+    margin: -4px 0 8px;
+}

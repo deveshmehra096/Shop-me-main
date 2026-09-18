@@ -9,10 +9,16 @@ class DealCardViewPort extends Component {
       <div className="deal_card_viewport">
               {
         data["deals-card-images"].map(element=>{
-        return <DealCardStyled image={element.image} message={element.message}/>
+        return <DealCardStyled
+          key={element.id}
+          id={element.id}
+          image={element.image}
+          message={element.message}
+          onOpen={this.props.onOpenDeal}
+        />
         })
       }
-        
+
       </div>
     )
   }
